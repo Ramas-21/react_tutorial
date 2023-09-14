@@ -4,4 +4,7 @@ function Hello(){
 }
 */
 const Hello = () => <h1>Hello world</h1>
+
 export default Hello;
+
+// => NEXT WILL BE CREATING A CLASS BASED COMPONENT
