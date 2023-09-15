@@ -4,3 +4,4 @@ class ClassHello extends Component {
         return <h1>These is a class Component</h1>
     }
 }
+export default ClassHello;
