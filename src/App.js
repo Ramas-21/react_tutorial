@@ -3,9 +3,9 @@ import Profile from './components/Profile';
 function App() {
   return (
     <div className="App">
-      <Profile name = "Lawrence"/>
-      <Profile name = "Joel"/>
-      <Profile name = "Ann"/>
+      <Profile name = "John" lastName = "Smith"/>
+      <Profile name = "Mark" lastName = "Lincoln"/>
+      <Profile name = "Charles" lastName = "Abuku"/>
     </div>
   );
 }
