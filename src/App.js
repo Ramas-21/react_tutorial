@@ -3,9 +3,8 @@ import Profile from './components/Profile';
 function App() {
   return (
     <div className="App">
-      <Profile name = "John" lastName = "Smith"/>
-      <Profile name = "Mark" lastName = "Lincoln"/>
-      <Profile name = "Charles" lastName = "Abuku"/>
+      <Profile name="John" lastName = "Smith"></Profile>
+      <Profile name="Mary" lastName = "Othiambo"></Profile>
     </div>
   );
 }
