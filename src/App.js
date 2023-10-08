@@ -1,9 +1,11 @@
 import './App.css';
-import Jsx2 from './components/Jsx2';
+import Profile from './components/Profile';
 function App() {
   return (
     <div className="App">
-      <Jsx2/>
+      <Profile name = "Lawrence"/>
+      <Profile name = "Joel"/>
+      <Profile name = "Ann"/>
     </div>
   );
 }
