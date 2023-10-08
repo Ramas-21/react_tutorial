@@ -1,9 +1,9 @@
 import './App.css';
-import Jsx from './components/Jsx.js';
+import Jsx2 from './components/Jsx2';
 function App() {
   return (
     <div className="App">
-      <Jsx/>
+      <Jsx2/>
     </div>
   );
 }
