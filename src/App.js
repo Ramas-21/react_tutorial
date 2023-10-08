@@ -1,9 +1,9 @@
 import './App.css';
-import ClassHello from './components/ClassHello';
+import Jsx from './components/Jsx.js';
 function App() {
   return (
     <div className="App">
-      <ClassHello/>
+      <Jsx/>
     </div>
   );
 }
