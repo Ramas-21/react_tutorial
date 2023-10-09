@@ -4,7 +4,7 @@ function FunctionEvent() {
     }
     return (
         <div>
-            Handling Event in a function based component
+            <h2>Handling Event in a function based component</h2>
             <button onClick={handleClick}>Click here</button>
         </div>
     );
