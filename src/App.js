@@ -3,6 +3,7 @@ import Profile from './components/Profile';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Destructuring from './components/Destructuring';
+import Destructuring2 from './components/Destructuring2';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Message messageContent = "This is a message from class props"></Message>
       <Counter></Counter>
       <Destructuring name = "Lawrence" lastName = "Home"></Destructuring>
+      <Destructuring2 name = "...Lawrence"></Destructuring2>
     </div>
   );
 }
