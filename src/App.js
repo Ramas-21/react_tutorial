@@ -4,6 +4,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import Destructuring from './components/Destructuring';
 import Destructuring2 from './components/Destructuring2';
+import FunctionEvent from './components/FunctionEvent';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Counter></Counter>
       <Destructuring name = "Lawrence" lastName = "Home"></Destructuring>
       <Destructuring2 name = "...Lawrence"></Destructuring2>
+      <FunctionEvent></FunctionEvent>
     </div>
   );
 }
