@@ -6,6 +6,7 @@ import Destructuring from './components/Destructuring';
 import Destructuring2 from './components/Destructuring2';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
+import FunctionState from './components/FunctionState';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Destructuring2 name = "...Lawrence"></Destructuring2>
       <FunctionEvent></FunctionEvent>
       <ClassEvent></ClassEvent>
+      <FunctionState></FunctionState>
     </div>
   );
 }
