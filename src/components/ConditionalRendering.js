@@ -1,11 +1,11 @@
 import { useState } from "react";
 export default function ConditionalRendering() {
-  const [display, setDisplay] = useState(true);
+  const [display, setDisplay] = useState(false);
 
   if (display) {
     return (
       <div>
-        <h3>This is a ConditionalRendering</h3>
+        <h3>This is ConditionalRendering</h3>
       </div>
     );
   } else {
