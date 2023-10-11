@@ -8,6 +8,7 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import FunctionState from './components/FunctionState';
 import ConditionalRendering from './components/ConditionalRendering';
+import VariableElememt from './components/VariableElement';
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
       <ClassEvent></ClassEvent>
       <FunctionState></FunctionState>
       <ConditionalRendering></ConditionalRendering>
+      <VariableElememt></VariableElememt>
     </div>
   );
 }
