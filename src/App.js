@@ -7,6 +7,7 @@ import Destructuring2 from './components/Destructuring2';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import FunctionState from './components/FunctionState';
+import ConditionalRendering from './components/ConditionalRendering';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <FunctionEvent></FunctionEvent>
       <ClassEvent></ClassEvent>
       <FunctionState></FunctionState>
+      <ConditionalRendering></ConditionalRendering>
     </div>
   );
 }
