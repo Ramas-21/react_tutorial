@@ -12,6 +12,7 @@ import VariableElememt from './components/VariableElement';
 import TernaryOperator from './components/TernaryOperator';
 import ListRendering from './components/ListRendering';
 import RenderingListOfObjects from './components/RenderingListOfObjects';
+import HandlingUserInput from './components/HandlingUserInput';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
       <TernaryOperator></TernaryOperator>
       <ListRendering></ListRendering>
       <RenderingListOfObjects></RenderingListOfObjects>
+      <HandlingUserInput></HandlingUserInput>
     </div>
   );
 }
