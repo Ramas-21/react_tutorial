@@ -10,6 +10,8 @@ import FunctionState from './components/FunctionState';
 import ConditionalRendering from './components/ConditionalRendering';
 import VariableElememt from './components/VariableElement';
 import TernaryOperator from './components/TernaryOperator';
+import ListRendering from './components/ListRendering';
+import RenderingListOfObjects from './components/RenderingListOfObjects';
 function App() {
   return (
     <div className="App">
@@ -25,6 +27,8 @@ function App() {
       <ConditionalRendering></ConditionalRendering>
       <VariableElememt></VariableElememt>
       <TernaryOperator></TernaryOperator>
+      <ListRendering></ListRendering>
+      <RenderingListOfObjects></RenderingListOfObjects>
     </div>
   );
 }
