@@ -9,6 +9,7 @@ import ClassEvent from './components/ClassEvent';
 import FunctionState from './components/FunctionState';
 import ConditionalRendering from './components/ConditionalRendering';
 import VariableElememt from './components/VariableElement';
+import TernaryOperator from './components/TernaryOperator';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       <FunctionState></FunctionState>
       <ConditionalRendering></ConditionalRendering>
       <VariableElememt></VariableElememt>
+      <TernaryOperator></TernaryOperator>
     </div>
   );
 }
