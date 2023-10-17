@@ -22,6 +22,9 @@ function Todo(){
                 <input value={todo} onChange={handleChange} type="text"></input>
                 <button type="submit">Add</button>
             </form>
+            {todoList.map((item)=>(
+                <h3>{item}</h3>
+            ))}
         </div>
     )
 }
