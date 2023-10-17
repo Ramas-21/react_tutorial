@@ -13,6 +13,7 @@ import TernaryOperator from './components/TernaryOperator';
 import ListRendering from './components/ListRendering';
 import RenderingListOfObjects from './components/RenderingListOfObjects';
 import HandlingUserInput from './components/HandlingUserInput';
+import Todo from './components/Todo';
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
       <ListRendering></ListRendering>
       <RenderingListOfObjects></RenderingListOfObjects>
       <HandlingUserInput></HandlingUserInput>
+      <Todo></Todo>
     </div>
   );
 }
